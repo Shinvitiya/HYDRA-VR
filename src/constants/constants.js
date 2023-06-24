@@ -1,4 +1,4 @@
-import {mail, location, phone, uses01, uses02, uses03, uses04} from "../assets/images"
+import {mail, location, phone, uses01, uses02, uses03, uses04, testimonial1, testimonial2, testimonial3, testimonial4} from "../assets/images"
 
 export const navLinks = [
     {
@@ -92,3 +92,21 @@ export const banner ={
     heading: "TECHNOLOGIES & HARDWARE",
     subHeading: "USED BY HYDRA VR."
 }
+
+export const testimonials =[{
+  id: "unreal-engine-logo",
+  image: testimonial1
+},
+{
+  id: "unity-logo",
+  image: testimonial2
+},
+{
+  id: "oculus-logo",
+  image: testimonial3
+},
+{
+  id: "vive-logo",
+  image: testimonial4
+}
+]

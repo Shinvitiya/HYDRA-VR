@@ -37,6 +37,7 @@ const App = () => {
             description={build.description}
           />
           <Cards />
+          <Testimonials />
         </div>
       </div>
       

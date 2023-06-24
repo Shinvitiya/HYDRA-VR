@@ -1,8 +1,13 @@
 import React from 'react'
+import { testimonials } from '../constants/constants'
 
 const Testimonials = () => {
   return (
-    <div>Testimonials</div>
+    <section className="flex md:flex-row flex-col item-center justify-center">
+      <div>
+        
+      </div>
+    </section>
   )
 }
 

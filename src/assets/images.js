@@ -21,12 +21,12 @@ import vector1 from "./vector1.svg";
 import vector2 from "./vector2.svg";
 import vector3 from "./vector3.svg";
 import vector6 from "./vector6.svg";
-
-
-
-
+import testimonial1 from "./testimonial1.svg";
+import testimonial2 from "./testimonial2.svg";
+import testimonial3 from "./testimonial3.svg";
+import testimonial4 from "./testimonial4.svg";
 
 
 export{
-    smallArrow, arrow, banner, chevron, facebook, logo, hydra, hamburger, mask01,vector1, vector2, vector3, mail, location, phone, chevronRight, chevronLeft, mask02, uses01, uses02, uses03, uses04, vector6
+    smallArrow, arrow, banner, chevron, facebook, logo, hydra, hamburger, mask01,vector1, vector2, vector3, mail, location, phone, chevronRight, chevronLeft, mask02, uses01, uses02, uses03, uses04, vector6, testimonial1, testimonial2, testimonial3, testimonial4
 };
