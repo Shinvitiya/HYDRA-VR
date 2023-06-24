@@ -20,7 +20,6 @@ const Navbar = () => {
         ))}
       </ul>
 
-      {/* <Button text="JOIN HYDRA"/> */}
       <button className="sm:flex hidden border-solid border-white border-[3px] text-white rounded-full text-[12px] font-bold py-2 px-8 z-[2]">
         Contact Us
       </button>
@@ -33,21 +32,17 @@ const Navbar = () => {
           />
 
           <div className={ `${ toggle ? "flex" : "hidden"} p-6 absolute top-20 right-0 mx-4 min-w-[140px] rounded-xl sidebar purple-gradient z-[2]`}>
-          <ul className="list-none flex flex-col justify-end items-center flex-1">
-        {navLinks.map((nav, index)=>(
-          <li
-          key={nav.id}
-          className = "font-poppins font-normal cursor-pointer text-[16px] mb-4 text-white"
-          >
-            <a href= {`#${nav.id}` }>{nav.title}</a>
-          </li>
-        ))}
-      </ul>
-      
-
-      </div>
-
-
+            <ul className="list-none flex flex-col justify-end items-center flex-1">
+          {navLinks.map((nav, index)=>(
+            <li
+            key={nav.id}
+            className = "font-poppins font-normal cursor-pointer text-[16px] mb-4 text-white"
+            >
+              <a href= {`#${nav.id}` }>{nav.title}</a>
+            </li>
+          ))}
+            </ul>
+          </div>
       </div>
 
     </nav>

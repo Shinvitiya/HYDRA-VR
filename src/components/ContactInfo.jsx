@@ -6,7 +6,7 @@ const ContactInfo = () => {
   const [index, setIndex] = useState(0);
   
   return (
-    <section className="flex flex-col md:flex-row items-center justify-center">
+    <section className="flex flex-col md:flex-row items-center justify-center mt-7">
       <div className="flex-1 justify-center items-center flex-row box-gradient xl:px0 sm:px16 px-4 z-[2] rounded-full py-8 sm:flex hidden">
         {contactInfo.map((contact, index) =>(
           
