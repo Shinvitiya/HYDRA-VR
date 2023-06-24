@@ -6,7 +6,7 @@ const Paragraph = (props) => {
     <section id={props.id} className="flex md:flex-row flex-row item-center justify-center mt-10 lg:mt-20"> 
 
     {/* ----------------------------HEADINGS----------------------------------------------- */} 
-      <div className="flex items-start flex-col xl:px0 sm:px16 px-6">
+      <div className="flex md:items-start items-center flex-col xl:px0 sm:px16 px-6">
 
         <div className="flex-1 flex flex-row xl:px0 sm:px16">
           <p className="text-white font-montserrat font-bold text-[36px]">{props.heading}</p>
@@ -20,7 +20,7 @@ const Paragraph = (props) => {
       </div>
 
 {/* ----------------------------Description----------------------------------------------- */}
-      <div className="flex-1 md:flex hidden justify-center items-center flex-col xl:px0 sm:px16 px-6 mb-5">
+      <div className="flex-1 md:flex hidden justify-center md:items-start items-center flex-col xl:px0 sm:px16 px-6 mb-5">
         <p className="text-white font-montserrat text-[16px]">{props.description}</p>
 
       </div>

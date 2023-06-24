@@ -1,7 +1,6 @@
 import React from 'react';
 import { cards } from '../constants/constants';
 import Banner from './Banner';
-import { vector6 } from '../assets/images';
 
 const Cards = () => {
   return (

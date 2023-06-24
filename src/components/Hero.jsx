@@ -1,6 +1,5 @@
 import React from 'react'
 import { mask01, smallArrow, vector1, vector2, vector3} from '../assets/images';
-import ContactInfo from './ContactInfo';
 
 const Hero = () => {
   return (

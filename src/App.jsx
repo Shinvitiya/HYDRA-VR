@@ -1,7 +1,7 @@
 import React from 'react'
-import {About, Banner, Build, Cards, ContactInfo, Form, Hero, Introduction, Navbar, Paragraph, Testimonials
+import {About, Banner, Cards, ContactInfo, Form, Hero, Introduction, Navbar, Paragraph, Testimonials
 } from "./components/components"
-import { introduction, build } from './constants/constants'
+import { introduction, build, howWeBuild } from './constants/constants'
 
 const App = () => {
   return (
@@ -19,7 +19,9 @@ const App = () => {
 
       <div className="sm:px-16 px-6 flex justify-center items-center">
         <div className="xl:max-w-[1280px] w-full">
+
           <ContactInfo />
+
           <Paragraph
            key={introduction.id}
            id = {introduction.id}
@@ -37,7 +39,18 @@ const App = () => {
             description={build.description}
           />
           <Cards />
+
           <Testimonials />
+
+          <Paragraph
+           key={howWeBuild.id}
+           id = {howWeBuild.id}
+           heading={howWeBuild.heading}
+           subHeading={howWeBuild.subHeading}
+           description={howWeBuild.description} 
+          />
+
+          
         </div>
       </div>
       

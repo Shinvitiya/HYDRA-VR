@@ -4,6 +4,21 @@
 @tailwind components;
 @tailwind utilities;
 
+
+::-webkit-scrollbar{
+    width:0.5em;
+    border-radius: 5rem;
+}
+
+::-webkit-scrollbar-track{
+    background: gray;
+}
+::-webkit-scrollbar-thumb{
+    background: whitesmoke;
+    border-radius: 5rem;
+}
+
+
 .scroll {
     overscroll-behavior: contain;
 }
@@ -36,6 +51,9 @@
     background: radial-gradient(50.00% 50.00% at 50.00% 50.00%, #433D60 0%, #211E2E 100%);
 }
 
+.chevron-color{
+    color:#343045;
+}
 .purple-gradient{
     background: linear-gradient(90deg,#8176AF 100%, #C0B7E8 0% );
 }

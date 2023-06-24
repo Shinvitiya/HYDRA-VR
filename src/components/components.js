@@ -1,6 +1,5 @@
 import About from "./About";
 import Banner from "./Banner";
-import Build from "./Build";
 import Cards from "./Cards";
 import ContactInfo from "./ContactInfo";
 import Form from "./Form";
@@ -13,7 +12,6 @@ import Testimonials from "./Testimonials";
 export {
     About,
     Banner,
-    Build,
     Cards,
     ContactInfo,
     Form,
