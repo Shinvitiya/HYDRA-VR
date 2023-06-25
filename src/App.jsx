@@ -1,11 +1,25 @@
-import React from 'react'
-import {About, Banner, Cards, ContactInfo, Form, Hero, Introduction, Navbar, Paragraph, Testimonials
+import React, {useEffect, useState} from 'react'
+import {About, Cards, ContactInfo, Form, Hero, Introduction, Navbar, Paragraph, Testimonials, 
 } from "./components/components"
 import { introduction, build, howWeBuild } from './constants/constants'
+import Preloader from './components/Preloader'
+
 
 const App = () => {
-  return (
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() =>{
+    setLoading(true)
+    setTimeout(() =>{
+      setLoading(false)
+    }, 5000)
+  }, [])
+
+  return ( 
     <div className="bg-primary w-full overflow-hidden overscroll-contain">
+    {loading ? 
+      <Preloader /> :
+      <React.Fragment>
       <div className="sm:px-16 px-6 flex justify-center items-center">
         <div className="xl:max-w-[1280px] w-full">
           <Navbar />
@@ -53,6 +67,10 @@ const App = () => {
           
         </div>
       </div>
+      </React.Fragment>
+      
+    }
+      
       
     </div>
   )

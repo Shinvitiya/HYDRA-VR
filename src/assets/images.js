@@ -12,6 +12,7 @@ import logo from "./logo.svg";
 import mail from "./mail.svg";
 import mask01 from "./mask01.png";
 import mask02 from "./mask02.png";
+import preload from "./preloader.gif";
 import phone from "./phone.svg";
 import uses01 from "./uses01.png";
 import uses02 from "./uses02.png"
@@ -28,5 +29,5 @@ import testimonial4 from "./testimonial4.svg";
 
 
 export{
-    smallArrow, arrow, banner, chevron, facebook, logo, hydra, hamburger, mask01,vector1, vector2, vector3, mail, location, phone, chevronRight, chevronLeft, mask02, uses01, uses02, uses03, uses04, vector6, testimonial1, testimonial2, testimonial3, testimonial4
+    smallArrow, arrow, banner, chevron, facebook, logo, hydra, hamburger, mask01,vector1, vector2, vector3, mail, location, phone, chevronRight, chevronLeft, mask02, uses01, uses02, uses03, uses04, vector6, testimonial1, testimonial2, testimonial3, testimonial4, preload
 };

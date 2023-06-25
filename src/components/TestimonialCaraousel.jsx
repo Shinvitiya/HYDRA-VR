@@ -34,7 +34,7 @@ const TestimonialCaraousel = () => {
         
         {testimonials.map((testimonial) =>{
           return(
-            <div className="flex items-center flex-col">
+            <div className="flex items-center flex-col" key={testimonial.id}>
             <img
           src={testimonial.image}
           alt={testimonial.id}
