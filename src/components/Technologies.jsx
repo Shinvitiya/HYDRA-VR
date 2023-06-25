@@ -1,10 +1,11 @@
 import React, {useState} from 'react'
 import { technologies } from '../constants/constants'
-import TestimonialCaraousel from './TestimonialCaraousel'
+import TechnologiesCarousel from './TechnologiesCarousel'
+// import { Technologies } from './components'
 
-const Testimonials = () => {
+const Technologies = () => {
   return (
-    <section className="flex md:flex-row flex-col item-center justify-center">
+    <section className="flex md:flex-row flex-col item-center justify-center" id="technologies">
       <div className="sm:flex hidden flex:col items-center">
         {technologies.map((technology) =>{
           return(
@@ -16,11 +17,11 @@ const Testimonials = () => {
       </div>
       <div className="sm:hidden flex flex:col items-center justify-center">
 
-        <TestimonialCaraousel />
+        <TechnologiesCarousel />
       </div>
 
     </section>
   )
 }
 
-export default Testimonials
+export default Technologies

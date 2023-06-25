@@ -5,10 +5,12 @@ import Button from './Button'
 
 const Footer = () => {
   return (
-    <section className="flex flex-col justify-center">
-        <div className="md:grid sm:grid-cols-4">
+    <section className="flex flex-col justify-center mt-10">
+
+        <div className="md:grid sm:grid-cols-4 mt-6">
+
             <div className="flex items-center justify-center">
-                <img src={logo}/>
+                <img src={logo} className="hover:animate-spin"/>
             </div>
 
             <div>
@@ -18,13 +20,13 @@ const Footer = () => {
                          key={item.id} href={item.url}>{item.title}</a>
                     )
                 })}
-                
             </div>
 
             <div>
             {footerItems2.map((item) =>{
                     return(
-                        <a className="font-montserrat font-bold text-[16px]  text-white md:flex hidden py-2" key={item.id} href={item.url} target="_blank">{item.title}</a>
+                        <a className="font-montserrat font-bold text-[16px]  text-white md:flex hidden py-2" 
+                        key={item.id} href={item.url} target="_blank">{item.title}</a>
                     )
                 })}
             </div>
@@ -34,9 +36,9 @@ const Footer = () => {
                 <div className="flex flex-row items-start my-4">
                     {socialIcons.map((icon) =>{
                         return(
-                                <img src={icon.image} key={icon.id} alt={icon.id} className="mx-2 cursor-pointer "/>
-                            
-                            
+                            <a href={icon.url} target='_blank' key={icon.id}>
+                                <img src={icon.image} alt={icon.id} className="mx-2 my-3 cursor-pointer "/>
+                            </a>
                         )
                     })}
                 </div>
@@ -44,9 +46,11 @@ const Footer = () => {
             </div>
 
         </div>
+
         <hr className="mt-5"/>
+
         <footer className="items-center justify-center flex my-5">
-            <span className="font-montserrat font-bold text-[12px] text-white" >{footerText}</span>
+            <span className="font-montserrat font-bold text-[10px] text-white" >{footerText}</span>
         </footer>
     </section>
   )

@@ -13,30 +13,33 @@ const Navbar = () => {
         {navLinks.map((nav, index)=>(
           <li
           key={nav.id}
-          className = {`font-montserrat font-semibold cursor-pointer text-[12px] ${index === navLinks.length -1? 'mr-0' : 'mr-10'} text-white`}
+          className = {`font-montserrat font-semibold cursor-pointer text-[12px]
+           ${index === navLinks.length -1? 'mr-0' : 'mr-10'} text-white`}
           >
             <a href= {`#${nav.id}` }>{nav.title}</a>
           </li>
         ))}
       </ul>
 
-      <button className="md:flex hidden border-solid border-white border-[3px] text-white rounded-full text-[12px] font-bold py-2 px-8 z-[2]">
+      <button className="md:flex hidden border-solid border-white border-[3px] text-white rounded-full
+       text-[12px] font-bold py-2 px-8 z-[2]">
         Contact Us
       </button>
       <Button text="JOIN HYDRA"/>
 
-      <div className="sm:hidden flex flex-1 justify-end items-center ">
+      <div className="sm:hidden flex flex-1 justify-end items-center">
           <img src={hamburger}  alt="menu" 
             className="w-[28px] h-[28px] object-contain z-[2]"
             onClick = {() =>setToggle((prev) =>(!prev))}
           />
 
-          <div className={ `${ toggle ? "flex" : "hidden"} p-6 absolute top-20 right-0 mx-4 min-w-[140px] rounded-xl sidebar purple-gradient z-[2]`}>
+          <div className={ `${ toggle ? "flex" : "hidden"} p-6 absolute top-20 right-0 mx-4 min-w-[140px]
+           rounded-xl sidebar box-gradient z-[2]`}>
             <ul className="list-none flex flex-col justify-end items-center flex-1">
           {navLinks.map((nav, index)=>(
             <li
             key={nav.id}
-            className = "font-poppins font-normal cursor-pointer text-[16px] mb-4 text-white"
+            className = " font-bold font-montserrat cursor-pointer text-[16px] mb-4 text-white"
             >
               <a href= {`#${nav.id}` }>{nav.title}</a>
             </li>

@@ -119,6 +119,30 @@ export const howWeBuild ={
   description: "Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Feugiat nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae."
 }
 
+export const howTo = [{
+  id: 1,
+  heading: "01",
+  subHeading: "3D Conception & Design"
+},
+{
+  id: 2,
+  heading: "02",
+  subHeading: "Interaction Design"
+},
+{
+  id: 3,
+  heading: "03",
+  subHeading: "VR World User Testing"
+},{
+  id: 4,
+  heading: "04",
+  subHeading: "Hydra VR Deploy"
+}
+]
+
+
+
+
 export const footerItems1 =[{
   id: "about",
   title: "ABOUT",
@@ -143,7 +167,7 @@ export const footerItems1 =[{
 {
   id: "join-hydra",
   title: "JOIN HYDRA",
-  url: "#join-hydra"
+  url: "https://www.w3.org/Provider/Style/dummy.html"
 },
 ]
 

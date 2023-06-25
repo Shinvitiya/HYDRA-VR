@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react'
-import {About, Cards, ContactInfo, Form, Hero, Introduction, Navbar, Paragraph, Testimonials, Preloader, Footer
+import {About, Cards, ContactInfo, Form, Hero, HowTo, Navbar, Paragraph, Technologies, Preloader, Footer
 } from "./components/components"
 import { introduction, build, howWeBuild } from './constants/constants'
 const App = () => {
@@ -9,7 +9,7 @@ const App = () => {
     setLoading(true)
     setTimeout(() =>{
       setLoading(false)
-    }, 5000)
+    }, 100)
   }, [])
 
   // Renders website after displaying preloader
@@ -53,16 +53,18 @@ const App = () => {
           />
           <Cards />
 
-          <Testimonials />
+          <Technologies />
 
-          <Paragraph
+          {/* Coming Soon */}
+
+          {/* <Paragraph
            key={howWeBuild.id}
            id = {howWeBuild.id}
            heading={howWeBuild.heading}
            subHeading={howWeBuild.subHeading}
            description={howWeBuild.description} 
-          />
-          
+          /> */}
+
 
           <Footer />
 

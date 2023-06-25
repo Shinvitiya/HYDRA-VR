@@ -10,7 +10,7 @@ const Banner = () => {
 
       <p className="text-white sm:text-[36px] text-[24px] font-montserrat">{banner.subHeading}</p>
 
-      <div className="button-gradient rounded-full absolute sm:bottom-2 bottom-6">
+      <div className="button-gradient rounded-full absolute sm:bottom-2 bottom-6 animate-bounce">
         <img src={chevron} className="ss:w-[50px] w-[23px]"/>
       </div>
 

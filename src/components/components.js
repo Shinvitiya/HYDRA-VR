@@ -4,12 +4,12 @@ import Cards from "./Cards";
 import ContactInfo from "./ContactInfo";
 import Form from "./Form";
 import Hero from "./Hero";
-import Introduction from "./Introduction";
 import Navbar from "./Navbar";
 import Paragraph from "./Paragraph";
-import Testimonials from "./Testimonials";
+import Technologies from "./Technologies";
 import Preloader from "./Preloader";
 import Footer from "./Footer";
+import HowTo from "./HowTo";
 
 export {
     About,
@@ -18,10 +18,11 @@ export {
     ContactInfo,
     Form,
     Hero,
-    Introduction,
     Navbar,
     Paragraph,
-    Testimonials,
+    Technologies,
     Preloader,
-    Footer
+    Footer,
+    HowTo,
+    
 };

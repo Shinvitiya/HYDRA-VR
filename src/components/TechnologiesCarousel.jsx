@@ -6,7 +6,7 @@ import { technologies } from '../constants/constants';
 
 {/* Caraousel for  testimonials on mobile view */}
 
-const TestimonialCaraousel = () => {
+const TechnologiesCarousel = () => {
   return (
     <div className="flex items-center flex-col">
       <Carousel className="rounded-xl items-center " prevArrow={({ handlePrev }) => (
@@ -52,4 +52,4 @@ const TestimonialCaraousel = () => {
   )
 }
 
-export default TestimonialCaraousel
+export default TechnologiesCarousel
