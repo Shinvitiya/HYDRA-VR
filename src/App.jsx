@@ -9,7 +9,7 @@ const App = () => {
     setLoading(true)
     setTimeout(() =>{
       setLoading(false)
-    }, 100)
+    }, 5000)
   }, [])
 
   // Renders website after displaying preloader
