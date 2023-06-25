@@ -8,6 +8,8 @@ import Introduction from "./Introduction";
 import Navbar from "./Navbar";
 import Paragraph from "./Paragraph";
 import Testimonials from "./Testimonials";
+import Preloader from "./Preloader";
+import Footer from "./Footer";
 
 export {
     About,
@@ -19,5 +21,7 @@ export {
     Introduction,
     Navbar,
     Paragraph,
-    Testimonials
+    Testimonials,
+    Preloader,
+    Footer
 };

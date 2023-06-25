@@ -20,7 +20,7 @@ const Navbar = () => {
         ))}
       </ul>
 
-      <button className="sm:flex hidden border-solid border-white border-[3px] text-white rounded-full text-[12px] font-bold py-2 px-8 z-[2]">
+      <button className="md:flex hidden border-solid border-white border-[3px] text-white rounded-full text-[12px] font-bold py-2 px-8 z-[2]">
         Contact Us
       </button>
       <Button text="JOIN HYDRA"/>

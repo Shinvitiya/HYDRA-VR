@@ -1,4 +1,5 @@
-import {mail, location, phone, uses01, uses02, uses03, uses04, testimonial1, testimonial2, testimonial3, testimonial4} from "../assets/images"
+import {mail, location, phone, uses01, uses02, uses03, uses04, testimonial1, 
+  testimonial2, testimonial3, testimonial4, facebook, twitter, linkedin, youtube, instagram, pinterest} from "../assets/images"
 
 export const navLinks = [
     {
@@ -93,7 +94,7 @@ export const banner ={
     subHeading: "USED BY HYDRA VR."
 }
 
-export const testimonials =[{
+export const technologies =[{
   id: "unreal-engine-logo",
   image: testimonial1
 },
@@ -117,3 +118,88 @@ export const howWeBuild ={
   subHeading: "WITH HYDRA VR?",
   description: "Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Feugiat nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae."
 }
+
+export const footerItems1 =[{
+  id: "about",
+  title: "ABOUT",
+  url: "#about"
+},
+{
+  id: "services",
+  title: "SERVICES",
+  url: "#services"
+  
+},
+{
+  id: "technologies",
+  title: "TECHNOLOGIES",
+  url: "#technologies"
+},
+{
+  id: "how-to",
+  title: "HOW TO",
+  url: "#how-to"
+},
+{
+  id: "join-hydra",
+  title: "JOIN HYDRA",
+  url: "#join-hydra"
+},
+]
+
+export const footerItems2 =[{
+  id: "faq",
+  title: "F.A.Q",
+  url: "https://www.w3.org/Provider/Style/dummy.html"
+},
+{
+  id: "sitemap",
+  title: "SITEMAP",
+  url: "https://www.w3.org/Provider/Style/dummy.html"
+},
+{
+  id: "conditions",
+  title: "CONDITIONS",
+  url: "https://www.w3.org/Provider/Style/dummy.html"
+},
+{
+  id: "licencses",
+  title: "LICENSES",
+  url: "https://opensource.org/license/mit/"
+},
+]
+
+export const socialIcons =[{
+  id: "facebook",
+  image: facebook,
+  url: "https://www.facebook.com/"
+},
+{
+  id: "twitter",
+  image:twitter,
+  url: "https://www.twitter.com/" 
+},
+{
+  id: "linkedin",
+  image: linkedin,
+  url: "https://www.linkedin.com/"
+},
+{
+  id: "youtube",
+  image: youtube,
+  url: "https://www.youtube.com/"
+  
+},
+{
+  id: "instagram",
+  image: instagram,
+  url: "https://www.instagram.com/"
+},
+{
+  id: "pinterest",
+  image: pinterest,
+  url: "https://www.pinterest.com/"
+},
+]
+
+export const footerText = new Date().getFullYear() + " © HYDRA LANDING PAGE - ALL RIGHTS RESERVED"

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Carousel, IconButton } from "@material-tailwind/react";
 import {ChevronRightIcon, ChevronLeftIcon } from "@heroicons/react/24/outline"
-import { testimonials } from '../constants/constants';
+import { technologies } from '../constants/constants';
 
 
 {/* Caraousel for  testimonials on mobile view */}
@@ -32,12 +32,12 @@ const TestimonialCaraousel = () => {
         </IconButton>
       )} >
         
-        {testimonials.map((testimonial) =>{
+        {technologies.map((technology) =>{
           return(
-            <div className="flex items-center flex-col" key={testimonial.id}>
+            <div className="flex items-center flex-col" key={technology.id}>
             <img
-          src={testimonial.image}
-          alt={testimonial.id}
+          src={technology.image}
+          alt={technology.id}
           className="w-[200px] object-contain mb-6"
         />
         </div>

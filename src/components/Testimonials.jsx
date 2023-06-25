@@ -1,15 +1,15 @@
 import React, {useState} from 'react'
-import { testimonials } from '../constants/constants'
+import { technologies } from '../constants/constants'
 import TestimonialCaraousel from './TestimonialCaraousel'
 
 const Testimonials = () => {
   return (
     <section className="flex md:flex-row flex-col item-center justify-center">
       <div className="sm:flex hidden flex:col items-center">
-        {testimonials.map((testimonial) =>{
+        {technologies.map((technology) =>{
           return(
-            <div key={testimonial.id} className="mx-7">
-              <img src={testimonial.image}/>
+            <div key={technology.id} className="mx-7">
+              <img src={technology.image}/>
             </div>
           )
         })}

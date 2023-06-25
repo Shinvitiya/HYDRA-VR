@@ -1,10 +1,7 @@
 import React, {useEffect, useState} from 'react'
-import {About, Cards, ContactInfo, Form, Hero, Introduction, Navbar, Paragraph, Testimonials, 
+import {About, Cards, ContactInfo, Form, Hero, Introduction, Navbar, Paragraph, Testimonials, Preloader, Footer
 } from "./components/components"
 import { introduction, build, howWeBuild } from './constants/constants'
-import Preloader from './components/Preloader'
-
-
 const App = () => {
   const [loading, setLoading] = useState(false);
 
@@ -14,6 +11,8 @@ const App = () => {
       setLoading(false)
     }, 5000)
   }, [])
+
+  // Renders website after displaying preloader
 
   return ( 
     <div className="bg-primary w-full overflow-hidden overscroll-contain">
@@ -63,6 +62,11 @@ const App = () => {
            subHeading={howWeBuild.subHeading}
            description={howWeBuild.description} 
           />
+          
+
+          <Footer />
+
+          
 
           
         </div>
